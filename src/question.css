@@ -1,0 +1,23 @@
+.answer-btn-clicked {
+  background-color: #d6dbf5;
+  border: 1px solid #d6dbf5;
+}
+
+.correct-answer {
+  background-color: #94d7a2;
+  border: 1px solid #94d7a2;
+}
+
+.wrong-answer {
+  background-color: #f8bcbc;
+  border: 1px solid #f8bcbc;
+}
+
+.wrong-answers-not-chosen,
+.wrong-answer {
+  opacity: 50%;
+}
+
+button:disabled {
+  cursor: default;
+}

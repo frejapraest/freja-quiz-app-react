@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f7fb;
+  height: 100vh;
+  display: flex;
+}
+
+.blob-blue,
+.blob-yellow {
+  position: fixed;
+  z-index: -1;
+}
+.blob-blue {
+  bottom: -5%;
+  left: -5%;
+}
+
+.blob-yellow {
+  top: -20%;
+  right: -15%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  color: #f5f7fb;
+  background-color: #4d5b9e;
+  border: none;
+  border-radius: 15px;
+  font-weight: 500;
+}
